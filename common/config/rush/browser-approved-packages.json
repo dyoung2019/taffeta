@@ -1,0 +1,54 @@
+// DO NOT ADD COMMENTS IN THIS FILE.  They will be lost when the Rush tool resaves it.
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
+  "packages": [
+    {
+      "name": "@babel/core",
+      "allowedCategories": [ "prototypes" ]
+    },
+    {
+      "name": "@babel/preset-typescript",
+      "allowedCategories": [ "prototypes" ]
+    },
+    {
+      "name": "@snowpack/plugin-babel",
+      "allowedCategories": [ "prototypes" ]
+    },
+    {
+      "name": "@snowpack/plugin-dotenv",
+      "allowedCategories": [ "prototypes" ]
+    },
+    {
+      "name": "@snowpack/plugin-typescript",
+      "allowedCategories": [ "prototypes" ]
+    },
+    {
+      "name": "@vanilla-extract/css",
+      "allowedCategories": [ "prototypes" ]
+    },
+    {
+      "name": "@vanilla-extract/css-utils",
+      "allowedCategories": [ "prototypes" ]
+    },
+    {
+      "name": "@vanilla-extract/snowpack-plugin",
+      "allowedCategories": [ "prototypes" ]
+    },
+    {
+      "name": "babel-preset-solid",
+      "allowedCategories": [ "prototypes" ]
+    },
+    {
+      "name": "snowpack",
+      "allowedCategories": [ "prototypes" ]
+    },
+    {
+      "name": "solid-js",
+      "allowedCategories": [ "prototypes" ]
+    },
+    {
+      "name": "typescript",
+      "allowedCategories": [ "prototypes" ]
+    }
+  ]
+}

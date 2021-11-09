@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
   "rushVersion": "5.56.0",
-  "pnpmVersion": "6.7.1",
+  "pnpmVersion": "6.20.4",
   "pnpmOptions": {
     "pnpmStore": "local",
     "strictPeerDependencies": true,
@@ -25,7 +25,6 @@
     "changeLogUpdateCommitMessage": "Update changelogs"
   },
   "repository": {
-    "url": "https://github.com/dyoung-2019/rush-example",
     "defaultBranch": "main",
     "defaultRemote": "origin"
   },
@@ -43,5 +42,10 @@
   "hotfixChangeEnabled": false,
 
   "projects": [
+    {
+      "packageName": "solid-app",
+      "projectFolder": "frontend/solid-app",
+      "reviewCategory": "prototypes"
+    }
   ]
 }

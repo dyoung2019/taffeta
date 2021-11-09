@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.56.0",
+  "pnpmVersion": "6.7.1",
+  "pnpmOptions": {
+    "pnpmStore": "local",
+    "strictPeerDependencies": true,
+    "preventManualShrinkwrapChanges": true,
+    "useWorkspaces": false
+  },
+  "nodeSupportedVersionRange": ">=16.13.0 <17.0.0",
+  "suppressNodeLtsWarning": false,
+  "ensureConsistentVersions": true,
+  "allowMostlyStandardPackageNames": false,
+  "approvedPackagesPolicy": {
+    "reviewCategories": [
+      "production",
+      "tools",
+      "prototypes"
+    ],
+    "ignoredNpmScopes": ["@types"]
+  },
+  "gitPolicy": {
+    "versionBumpCommitMessage": "Bump versions",
+    "changeLogUpdateCommitMessage": "Update changelogs"
+  },
+  "repository": {
+    "url": "https://github.com/dyoung-2019/rush-example",
+    "defaultBranch": "main",
+    "defaultRemote": "origin"
+  },
+  "eventHooks": {
+    "preRushInstall": [],
+    "postRushInstall": [],
+    "preRushBuild": [],
+    "postRushBuild": []
+  },
+
+  "variants": [],
+
+  "telemetryEnabled": false,
+
+  "hotfixChangeEnabled": false,
+
+  "projects": [
+  ]
+}

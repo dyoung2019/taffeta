@@ -11,6 +11,10 @@
       "allowedCategories": [ "prototypes" ]
     },
     {
+      "name": "@prefresh/snowpack",
+      "allowedCategories": [ "prototypes" ]
+    },
+    {
       "name": "@snowpack/plugin-babel",
       "allowedCategories": [ "prototypes" ]
     },
@@ -20,6 +24,14 @@
     },
     {
       "name": "@snowpack/plugin-typescript",
+      "allowedCategories": [ "prototypes" ]
+    },
+    {
+      "name": "@snowpack/web-test-runner-plugin",
+      "allowedCategories": [ "prototypes" ]
+    },
+    {
+      "name": "@testing-library/preact",
       "allowedCategories": [ "prototypes" ]
     },
     {
@@ -35,7 +47,27 @@
       "allowedCategories": [ "prototypes" ]
     },
     {
+      "name": "@web/test-runner",
+      "allowedCategories": [ "prototypes" ]
+    },
+    {
       "name": "babel-preset-solid",
+      "allowedCategories": [ "prototypes" ]
+    },
+    {
+      "name": "chai",
+      "allowedCategories": [ "prototypes" ]
+    },
+    {
+      "name": "preact",
+      "allowedCategories": [ "prototypes" ]
+    },
+    {
+      "name": "prettier",
+      "allowedCategories": [ "prototypes" ]
+    },
+    {
+      "name": "rune.js",
       "allowedCategories": [ "prototypes" ]
     },
     {

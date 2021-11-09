@@ -46,6 +46,16 @@
       "packageName": "solid-app",
       "projectFolder": "frontend/solid-app",
       "reviewCategory": "prototypes"
+    },
+    {
+      "packageName": "timeline-meter",
+      "projectFolder": "frontend/timeline-meter",
+      "reviewCategory": "prototypes"
+    },
+    {
+      "packageName": "folding-panel",
+      "projectFolder": "frontend/folding-panel",
+      "reviewCategory": "prototypes"
     }
   ]
 }
